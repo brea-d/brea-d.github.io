@@ -1,0 +1,112 @@
+  @import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei&display=swap');
+* {
+
+
+margin: 0;
+padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #ccccff;
+}
+
+.container {
+}
+
+p, a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.menu li{
+  float: right;
+  padding-right: 0px;
+  font-size: 1.2em;
+  list-style-type: none;
+  margin-top: 1vh;
+  margin-right: 5vh;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.menu li a {
+  color: #FFEEE6;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #ccccff;
+  transition: 0.5s;
+  text-shadow: 3px 3px 6px #A18BC9;
+}
+.center {
+  float: center;
+  margin-left: 71.5vh;
+  margin-right: 71.5vh;
+}
+a {
+  color: #4a4a4a;
+}
+
+a:hover {
+  color: lavenderblush;
+  transition: 0.5s;
+  text-shadow: 3px 3px 6px #F7D9D7;
+}
+
+h1 {
+  color: #A9A9D4;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+p {
+  color: #4a4a4a;
+  font-family: 'Montserrat', sans-serif;
+}
+h1, p{
+text-align: center;
+}
+
+#title {
+  margin-top: 8vh;
+}
+
+.align1 {
+  float: right;
+  padding-right: 40vh;
+}
+
+.align2 {
+  float: left;
+  padding-left: 30vh;
+}
+
+.menufooter {
+  float: right;
+  padding-right: 2vh;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.bg {
+  background: linear-gradient(
+    to bottom right,
+    #DDCFE6, #B2A2BA,
+    #4878D9, #857096,
+    #4393D9, #4C3A5C,
+    #BAABD1, #C7A3B9);
+  background-repeat: no-repeat;
+  background-size: 1000% 1000%;
+  animation: gradient 240s ease infinite;
+}
+
+@keyframes gradient {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 100%}
+  100%{background-position:0% 0%}
+}
+
+button {
+  float: left;
+  padding: 35vh;
+}
