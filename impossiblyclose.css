@@ -49,3 +49,41 @@ h3 {
   color: lavenderblush;
   text-shadow: 3px 3px 6px #E3CDDA;
   transition: 0.5s;
+
+  .align1 {
+    float: right;
+    padding-right:5vh;
+    padding-right: none;
+    padding-left: none;
+    padding-bottom: none;
+    padding-top: none;
+  }
+
+  .align2 {
+    float: left;
+    padding-left: 30vh;
+  }
+
+  .menufooter li{
+    float: right;
+    padding-right: 0px;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-top: 0vh;
+    margin-right: 5vh;
+    font-family: 'ZCOOL XiaoWei', serif;
+  }
+
+  .menufooter li a {
+    text-decoration: none;
+  }
+
+  .menufooter li a:hover {
+    color: #FAFAFA;
+    transition: 0.5s;
+    text-shadow: 3px 3px 6px rgba(250,250,250, 0.5);
+  }
+
+  li .email {
+    padding-right: 15vh;
+  }
