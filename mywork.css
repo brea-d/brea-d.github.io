@@ -40,11 +40,11 @@ h2 {
 .menu li{
   float: right;
   padding-right: 0px;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   color: #393B4D;
   list-style-type: none;
-  margin-top: 1vh;
-  margin-right: 5vh;
+  margin-top: 1vw;
+  margin-right: 3vw;
   font-family: 'ZCOOL XiaoWei', serif;
 }
 
@@ -60,7 +60,7 @@ h2 {
 
   .align1 {
     float: right;
-    padding-right:5vh;
+    padding-right:5vw;
     padding-right: none;
     padding-left: none;
     padding-bottom: none;
@@ -72,9 +72,7 @@ h2 {
     padding-left: 30vh;
   }
 
-  .menufooter li{
-    float: right;
-    padding-right: 0px;
+        padding-right: 0px;
     font-size: 1.2em;
     list-style-type: none;
     margin-top: 0vh;
@@ -84,6 +82,7 @@ h2 {
 
   .menufooter li a {
     text-decoration: none;
+    float: right;
   }
 
   .menufooter li a:hover {
@@ -93,6 +92,7 @@ h2 {
   }
 
   li .email {
+    float: right;
     padding-right: 15vh;
   }
 
