@@ -6,6 +6,31 @@ margin: 0;
 padding: 0;
 }
 
+p {
+  color: #4a4a4a;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 0px rgba(216,213,255, 0.5);
+}
+
+button {
+  background-color:#CFA1BC;
+  font-family: sans-serif, 'Montserrat';
+  display: inline-block;
+  color: White;
+  border: none;
+  padding: 0.25vw;
+  cursor: hand;
+}
+
+button:hover span {
+  display: none;
+}
+
+button:hover:before {
+  transition: 10s;
+  content: "It's more likely than you think."
+}
+
 body {
   overflow-x: hidden;
   background-color: lavenderblush;
@@ -14,6 +39,45 @@ body {
 .container {
 
 }
+
+.align1 {
+    float: right;
+    padding-right:5vh;
+    padding-right: none;
+    padding-left: none;
+    padding-bottom: none;
+    padding-top: none;
+  }
+
+  .align2 {
+    float: left;
+    padding-left: 30vh;
+  }
+
+  .menufooter li{
+    float: right;
+    padding-right: 0px;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-top: 0vh;
+    margin-right: 5vh;
+    font-family: 'ZCOOL XiaoWei', serif;
+  }
+
+  .menufooter li a {
+    text-decoration: none;
+  }
+
+  .menufooter li a:hover {
+    color: #FAFAFA;
+    transition: 0.5s;
+    text-shadow: 3px 3px 6px rgba(250,250,250, 0.5);
+  }
+
+  li .email {
+    padding-right: 15vh;
+  }
+
 
 h1 {
   text-align: center;
@@ -57,46 +121,3 @@ h2 {
   color: lavenderblush;
   text-shadow: 3px 3px 6px #E0B4A8;
   transition: 0.5s;
-
-  .align1 {
-    float: right;
-    padding-right:5vw;
-    padding-right: none;
-    padding-left: none;
-    padding-bottom: none;
-    padding-top: none;
-  }
-
-  .align2 {
-    float: left;
-    padding-left: 30vh;
-  }
-
-        padding-right: 0px;
-    font-size: 1.2em;
-    list-style-type: none;
-    margin-top: 0vh;
-    margin-right: 5vh;
-    font-family: 'ZCOOL XiaoWei', serif;
-  }
-
-  .menufooter li a {
-    text-decoration: none;
-    float: right;
-  }
-
-  .menufooter li a:hover {
-    color: #FAFAFA;
-    transition: 0.5s;
-    text-shadow: 3px 3px 6px rgba(250,250,250, 0.5);
-  }
-
-  li .email {
-    float: right;
-    padding-right: 15vh;
-  }
-
-  button {
-    float: center;
-    font-family: sans-serif, 'Montserrat';
-  }

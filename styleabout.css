@@ -60,11 +60,6 @@ p {
 
 }
 
-.center {
-  float: center;
-  margin-left: 71.5vh;
-  margin-right: 71.5vh;
-}
 
 .align1 {
   float: right;
@@ -104,7 +99,9 @@ li .email {
   padding-right: 15vh;
 }
 
-img.resize {
-  max-width:50%;
-  max-height:50%;
+img .resize {
+  max-width:25%;
+  max-height:25%;
+  margin: auto;
+  padding: 10vw
 }
