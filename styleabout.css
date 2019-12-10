@@ -103,3 +103,8 @@ p {
 li .email {
   padding-right: 15vh;
 }
+
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
