@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei&display=swap');
+import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei&display=swap');
 * {
 
 
@@ -7,9 +7,54 @@ padding: 0;
 }
 
 body {
-overflow-x: hidden;
-background-color: #ccccff;
+  overflow-x: hidden;
+  background-color: lavenderblush;
 }
 
 .container {
+
 }
+
+ul {
+  width: 100%;
+    list-style-type: none;
+    margin: auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+h1 {
+  text-align: center;
+  color: #AE97BA;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+h3 {
+  color: #424242;
+  font-family: 'Montserrat', sans-serif;
+  float: center;
+  margin-top: 1vh;
+  margin-left: 63.8vh;
+  text-decoration: none;
+}
+
+.menu li{
+  float: right;
+  padding-right: 0px;
+  color: #575A5C;
+  font-size: 1.2em;
+  list-style-type: none;
+  margin-top: 1vh;
+  margin-right: 5vh;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.menu li a {
+  color: #575A5C;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: lavenderblush;
+  transition: 0.5s;
+  text-shadow: 3px 3px 6px #E3CDDA;
