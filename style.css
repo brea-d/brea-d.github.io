@@ -45,11 +45,14 @@ p, a {
   text-shadow: 3px 3px 6px rgba(250,250,250, 0.5);
 }
 
+/* center edit
 .center {
   float: center;
   margin-left: 34vw;
   margin-right: 34vw;
 }
+*/
+
 a {
   color: #4a4a4a;
 }
