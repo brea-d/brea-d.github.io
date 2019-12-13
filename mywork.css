@@ -12,6 +12,11 @@ p {
   text-shadow: 2px 2px 0px rgba(216,213,255, 0.5);
 }
 
+img:hover {
+  border: solid 4px #9c82ad;
+  transition: border-width 0.6s linear;
+}
+
 button {
   background-color:#CFA1BC;
   font-family: sans-serif, 'Montserrat';
@@ -81,8 +86,9 @@ body {
 
 h1 {
   text-align: center;
-  color: #5B5E7A;
+  color: #3C264D;
   font-family: 'ZCOOL XiaoWei', serif;
+  letter-spacing: 0.5vw;
 }
 
 .center {
