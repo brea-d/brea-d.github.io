@@ -1,4 +1,4 @@
-import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei&display=swap');
 * {
 
 
@@ -7,54 +7,128 @@ padding: 0;
 }
 
 body {
-  overflow-x: hidden;
-  background-color: lavenderblush;
+overflow-x: hidden;
+background-color: #ccccff;
 }
 
 .container {
-
 }
 
-ul {
-  width: 100%;
-    list-style-type: none;
-    margin: auto;
-    overflow-x: scroll;
-    white-space: nowrap;
+p, a {
+list-style-type: none;
+text-decoration: none;
 }
 
-h1 {
-  text-align: center;
-  color: #AE97BA;
-  font-family: 'ZCOOL XiaoWei', serif;
-}
-
-h3 {
-  color: #424242;
-  font-family: 'Montserrat', sans-serif;
-  float: center;
-  margin-top: 1vh;
-  margin-left: 63.8vh;
-  text-decoration: none;
-}
-
+/*menubar*/
 .menu li{
-  float: right;
-  padding-right: 0px;
-  color: #575A5C;
-  font-size: 1.2em;
-  list-style-type: none;
-  margin-top: 1vh;
-  margin-right: 5vh;
-  font-family: 'ZCOOL XiaoWei', serif;
+float: right;
+padding-right: 0px;
+font-size: 1.2vw;
+list-style-type: none;
+margin-top: 1vw;
+margin-right: 3vw;
+font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .menu li a {
-  color: #575A5C;
-  text-decoration: none;
+color: #4a4a4a;
+text-decoration: none;
 }
 
 .menu li a:hover {
-  color: lavenderblush;
-  transition: 0.5s;
-  text-shadow: 3px 3px 6px #E3CDDA;
+color: #FAFAFA;
+transition: 0.5s;
+text-shadow: 3px 3px 6px rgba(250,250,250, 0.5);
+}
+
+
+.center {
+float: center;
+margin-left: 34vw;
+margin-right: 34vw;
+}
+a {
+color: #4a4a4a;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+color: lavenderblush;
+transition: 0.5s;
+text-shadow: 3px 3px 6px #F7D9D7;
+}
+
+/*Title*/
+h1 {
+color: White;
+font-family: 'ZCOOL XiaoWei', serif;
+letter-spacing: 0.5vw;
+}
+
+/*desc and footer text*/
+p {
+color: #4a4a4a;
+font-family: 'Montserrat', sans-serif;
+text-shadow: 2px 2px 0px rgba(216,213,255, 0.5);
+}
+
+h1, p{
+text-align: center;
+}
+
+#title {
+margin-top: 8vh;
+}
+
+.desc p {
+  padding-right: 2vw, auto;
+}
+
+h1 {
+  color: #2b2430;
+}
+/*footer*/
+.align1 {
+float: right;
+padding-right:5vh;
+padding-right: none;
+padding-left: none;
+padding-bottom: none;
+padding-top: none;
+color: #D8D5FF;
+font-family: 'Montserrat', sans-serif;
+text-shadow: 2px 2px 0px rgba(74, 74, 74, 0.5);
+}
+
+.align2 {
+float: left;
+padding-left: 30vh;
+}
+
+.menufooter li{
+float: right;
+padding-right: 0px;
+font-size: 1.2em;
+list-style-type: none;
+margin-top: 0vh;
+margin-right: 5vh;
+font-family: 'ZCOOL XiaoWei', serif;
+color: #FAFAFA;
+}
+
+.menufooter li a {
+text-decoration: none;
+}
+
+.menufooter li a:hover {
+color: ##FAFAFA;
+transition: 0.5s;
+text-shadow: 3px 3px 6px rgba(250,250,250, 0.5);
+}
+
+li .email {
+padding-right: 15vh;
+}
