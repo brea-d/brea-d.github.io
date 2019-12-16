@@ -1,0 +1,24 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei&display=swap');
+* {
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+span {
+  float: left;
+  padding-left: 15vw;
+  font-family: 'Montserrat', sans-serif;
+}

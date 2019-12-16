@@ -2,30 +2,20 @@
 * {
 
 
-margin: 0;
-padding: 0;
-}
+  html, body {
+    height: 100%;
+  }
 
-html, body {
-  height: 100%;
-}
+  body {
+    margin: 0;
+    display: flex;
 
-.about body {
-  margin: 0;
-  display: flex;
+    /* This centers our sketch horizontally. */
+    justify-content: center;
 
-  /* This centers our sketch horizontally. */
-  justify-content: center;
-
-  /* This centers our sketch vertically. */
-  align-items: center;
-}
-
-body {
-overflow-x: hidden;
-background-color: #ccccff;
-}
-
+    /* This centers our sketch vertically. */
+    align-items: center;
+  }
 .container {
 }
 
