@@ -1,0 +1,12 @@
+.custom-cursor-image {
+ width: 300px;
+ height: 300px;
+ border-radius: 4px;
+ margin: 0 auto;
+ cursor: 
+url(https://imgur.com/a/SU8VlL5), pointer;
+}
+
+.custom-cursor-image:active {
+    cursor: url(https://gph.is/st/Yan34dG), pointer;
+    }
