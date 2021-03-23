@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3D Vase</title>
+    <link rel="stylesheet" type="text/css" href="Vase.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+    
+  </head>
+  <body>
+      <!-- home page first half -->
+      <div class="container">
+        <nav>
+          <div class="menu-menu-1-container">  
+            <ul id="menu-menu-1">
+              <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="index.html">Home</a></li>
+              <li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5"><a href="bio.html">About Me</a></li>  
+        </ul> 
+      </div>				
+      </nav> 
+    <div class="container">
+        <img src="Vase.jpg" alt="3D Vase"; width="50%"; height="auto";>
+    </div>
+    <div class="sketchfab-embed-wrapper">
+        <iframe title="Slanted Vase" src="https://sketchfab.com/models/608b569559d44c7fbb56760ec13ba165/embed" width="50%"; height="100%";>
+        </iframe>
+       <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+            <a href="https://sketchfab.com/3d-models/slanted-vase-608b569559d44c7fbb56760ec13ba165" target="_blank" style="font-weight: bold; color: #1CAAD9;">Slanted Vase</a>
+            by <a href="https://sketchfab.com/breanna.dulay" target="_blank" style="font-weight: bold; color: #1CAAD9;">breanna.dulay</a>
+            on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+        </p>
+    </div>
+    <div class="description">
+      <h1>3D Printed Vase | 2021</h1>
+      <h2>Fusion 360, 3D Printing(PLA)</h2>
+      <p>3D PLA printed vase designed as a part of the 3D printing workshop included during the Design+AI events. I used Fusion 360’s functions to create and simple but elegant vase. 
+    </p>
+  </div>
+     <!-- cursor effects -->
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+<script>
+  var cursor = document.querySelector(".cursor");
+  var cursor2 = document.querySelector(".cursor2");
+  document.addEventListener("mousemove",function(e){
+    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+  });
+</script>
+  </body>
+</html>

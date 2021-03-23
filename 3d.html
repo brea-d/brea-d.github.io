@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3D</title>
+    <link rel="stylesheet" type="text/css" href="illustration.css">
+    <script src="https://kit.fontawesome.com/33d7247fc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+  </head>
+  <body>
+    <div class="h1"><h1>3D</h1></div>
+             <!-- home page first half -->
+             <div class="container">
+              <nav>
+                <div class="menu-menu-1-container">  
+                  <ul id="menu-menu-1">
+                    <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="index.html">Home</a></li>
+                    <li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5"><a href="bio.html">About Me</a></li>  
+              </ul> 
+            </div>				
+            </nav> 
+    <div class="thumbnail"> 
+      <a href="floralvase.html"><img src="Vase.jpg" alt="3D Vase" width="50%", height="auto";>
+      </a>
+      <a href="3dsustaincontest.html">
+        <img src="GardenofDetritus_Breanna_Dulay.jpg" alt= "Garden of Detritus" width="50%", height="auto";>
+      </a>
+      <a href="Rabbit.html">
+      <img src="3drabbit.png" alt="3D Rabbit"; width="50%"; height="auto";>
+    </a>
+    </div>
+
+            <!-- cursor effects -->
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+<script>
+  var cursor = document.querySelector(".cursor");
+  var cursor2 = document.querySelector(".cursor2");
+  document.addEventListener("mousemove",function(e){
+    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+  });
+</script>
+  </body>
+</html>

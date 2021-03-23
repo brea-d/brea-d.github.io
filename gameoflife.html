@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game of Life</title>
+    <link rel="stylesheet" type="text/css" href="gameoflife.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+    
+  </head>
+  <body>
+      <!-- home page first half -->
+      <div class="container">
+        <nav>
+          <div class="menu-menu-1-container">  
+            <ul id="menu-menu-1">
+              <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="index.html">Home</a></li>
+              <li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5"><a href="bio.html">About Me</a></li>  
+        </ul> 
+      </div>				
+      </nav> 
+    <div class="container">
+        <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="brea-d" data-slug-hash="yLVZpBY" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Cellular Automata">
+            <span>See the Pen <a href="https://codepen.io/brea-d/pen/yLVZpBY">
+            Cellular Automata</a> by brea-d (<a href="https://codepen.io/brea-d">@brea-d</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+    <div class="description">
+      <h1>Game of Life | 2021</h1>
+      <h2>Code, html, Js</h2>
+      <p>My take on recreating Conway's Game of Life </p>
+  </div>
+     <!-- cursor effects -->
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+<script>
+  var cursor = document.querySelector(".cursor");
+  var cursor2 = document.querySelector(".cursor2");
+  document.addEventListener("mousemove",function(e){
+    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+  });
+</script>
+  </body>
+</html>

@@ -1,54 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Gallery | Impossibly Close</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Impossibly Close</title>
     <link rel="stylesheet" type="text/css" href="impossiblyclose.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
+    
   </head>
-  <body style="background-color:#F2F2F0">
+  <body>
+      <!-- home page first half -->
+      <div class="container">
+        <nav>
+          <div class="menu-menu-1-container">  
+            <ul id="menu-menu-1">
+              <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="index.html">Home</a></li>
+              <li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5"><a href="bio.html">About Me</a></li>  
+        </ul> 
+      </div>				
+      </nav> 
     <div class="container">
-      <br> <br> <br> <br>
-      <h1 style="color:#2b2430, text-align:center;">Gallery</h1>
-      <br> <br> <br> <br>
-      <p></p>
+        <a href="https://www.youtube.com/watch?v=MuHniK-VlXw">
+        <img src="https://media.giphy.com/media/ien2L76qMeDP1PNDj4/giphy.gif" alt="ImpossiblyClose"; width="50%"; height="auto";>
+        </a>
     </div>
+    <div class="description">
+      <h1>Impossibly Close | 2019</h1>
+      <h2>Digital Illustration, PhotoShop, Illustrator, BlipAR</h2>
+      <p>Given the challenge to create a piece using Illustrator and AR, this work was spawned with the myth of the Three Fates, or Moirai, in mind. I sought to create a surrealist feeling using Illustrator’s many functions which can be seen in the unidentifiable mass that the hands of the fates emerge from. The string is an allusion to the threads of fate controlled by the Moirai. </p>
+  </div>
+     <!-- cursor effects -->
+<div class="cursor"></div>
+<div class="cursor2"></div>
 
-    <div>
-      <ul class="menu">
-        <li><a href="https://www.instagram.com/a_burnt_bread/"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href= "mywork.html">My Work</li>
-        <li><a href="index.html">Home</a></li>
-      </ul>
-    </div>
-    <br> <br> <br>
-    <br> <br>
-
-    <div align="center">
-        <a href="impossiblyclose.html"><img src="https://media.giphy.com/media/ien2L76qMeDP1PNDj4/giphy.gif" alt="ImpossiblyClose">
-    </div>
-
-    <div class="desc">
-      <p>Title: Impossibly Close</p>
-      <p>Medium: Digital Collage </p>
-      <p>Date: September 2019</p>
-    </div>
-      <br><br>
-      <br><br>
-
-      <footer style="background-color:#B2A2BA">
-      <br> <br>
-      <br>
-      <br>
-
-      <ul class="menufooter">
-        <li><a class="social" href="https://www.instagram.com/a_burnt_bread/"><i class="fab fa-instagram"></i></a></li>
-        <li><i class="fab fa-deviantart"></i></li>
-        <li class="email"><i class="far fa-envelope"></i></li>
-        </ul>
-        <p class="align1">Keep up with me!</p>
-      <br><br><br><br>
-    </footer>
-
+<script>
+  var cursor = document.querySelector(".cursor");
+  var cursor2 = document.querySelector(".cursor2");
+  document.addEventListener("mousemove",function(e){
+    cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+  });
+</script>
   </body>
-  </html>
+</html>
