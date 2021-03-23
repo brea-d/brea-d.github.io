@@ -17,7 +17,12 @@ body {
     color:rgb(0, 0, 0);
 }
 
-
+.description {
+  margin:0;
+  position: relative;
+  text-align: center;
+  padding-left: 80vh; 
+}
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 
 .grid-container {
@@ -246,5 +251,6 @@ nav ul {
               }
    nav ul > li a:hover {
       text-decoration:none;
-      color:#581311;
+      color:#ffffff;
+      text-shadow: 5px, 5px, black;
   }
