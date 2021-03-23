@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Breanna Dulay | Message me!</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="email.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="email.css">
+    <script src="https://kit.fontawesome.com/33d7247fc6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hyn6twh.css">
   </head>
   <body>
+<!-- home page first half -->
+<div class="container">
+    <nav>
+      <div class="menu-menu-1-container">  
+        <ul id="menu-menu-1">
+          <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4"><a href="index.html">Home</a></li>
+          <li id="menu-item-5" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5"><a href="bio.html">About Me</a></li>  
+    </ul> 
+  </div>				
+  </nav> 
   <div class="bg">
     <br>  <br>
     <br>
@@ -24,29 +37,54 @@
     <textarea rows="6" required placeholder="Message" name="Message"></textarea>
     <button type="reset">Reset</button><button type="submit">Submit</button>
   </form>
+
+  <!-- sidebar social -->
+  <div class="sidebar">
+    <ul class="fa-ul">
+      <i class="time-container fa fa-save">
+        <a id="time">Keep up <br>with me!</a>
+    </i>
+      <li><a href="https://www.instagram.com/breadilyy/"><i class="fab fa-instagram"></i></a></li>
+      <li><i class="fab fa-deviantart"></i></li>  
+      <li><a href="https://www.linkedin.com/in/breadyish/"><i class="fab fa-linkedin-in"></i></li>
+      <li><a href="email.html"><i class="far fa-envelope"></i></li>
+      </ul>
+    </div>
+  </div> 
+
+<!-- cursor effects -->
+<div class="cursor"></div>
+<div class="cursor2"></div>
+
+<script>
+var cursor = document.querySelector(".cursor");
+var cursor2 = document.querySelector(".cursor2");
+document.addEventListener("mousemove",function(e){
+  cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+});
+</script>
   <br><br><br>  <br>
   <br>
   <br><br>  <br>
   <br>
-  <br><br>  <br>
+  <br><br><br>  <br>
   <br>
   <br><br>  <br>
+  <br><br><br><br>  <br>
   <br>
+  <br><br>  <br>
+  <br><br><br><br>  <br>
+  <br>
+  <br><br>  <br>
+  <br><br><br><br>  <br>
+  <br>
+  <br><br>  <br>
+  <br><br><br><br>  <br>
+  <br>
+  <br><br>  <br>
+  <br><br><br><br>  <br>
+  <br>
+  <br><br>  <br>
   </div>
-
-    <footer style="background-color:#EDECEB">
-      <br>  <br>
-      <br>
-      <br>
-
-      <ul class="menufooter">
-        <li><a class="social" href="https://www.instagram.com/a_burnt_bread/"><i class="fab fa-instagram"></i></a></li>
-        <li><i class="fab fa-deviantart"></i></li>
-        <li class="email.html"><a href="email.html"><i class="far fa-envelope"></i></li>
-        </ul>
-        <p class="align1">Keep up with me!</p>
-
-      <br><br><br><br>
-    </footer>
   </body>
 </html>
